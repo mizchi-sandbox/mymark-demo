@@ -1,0 +1,29 @@
+{
+  "name": "mymark",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "rehype-highlight": "^2.0.1",
+    "rehype-katex": "^1.0.2",
+    "rehype-react": "^3.0.1",
+    "remark": "^8.0.0",
+    "remark-emoji": "^2.0.0",
+    "remark-html": "^6.0.1",
+    "remark-math": "^1.0.1",
+    "remark-parse": "^4.0.0",
+    "remark-preset-lint-markdown-style-guide": "^2.1.1",
+    "remark-react": "^4.0.0",
+    "remark-rehype": "^2.0.1",
+    "remark-toc": "^4.0.1",
+    "unified": "^6.1.5",
+    "vfile-reporter": "^4.0.0",
+    "webpack": "^3.5.5"
+  }
+}
