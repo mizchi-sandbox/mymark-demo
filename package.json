@@ -1,13 +1,23 @@
 {
-  "name": "mymark",
+  "name": "mymark-demo",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack -w"
+  },
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.6.0",
     "babel-preset-react": "^6.24.1",
+    "draft-js": "^0.10.1",
+    "draft-js-export-markdown": "^1.0.1",
+    "draft-js-import-markdown": "^1.0.1",
+    "gh-pages": "^1.0.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "rehype-highlight": "^2.0.1",
